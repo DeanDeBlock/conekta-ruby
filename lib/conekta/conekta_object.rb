@@ -22,7 +22,7 @@ module Conekta
     end
 
     def last
-      self[self.count - 1]
+      self[self.keys.last]
     end
 
     def load_from(response)
